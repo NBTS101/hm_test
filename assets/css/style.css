@@ -1,0 +1,37 @@
+.navbar input::placeholder{
+    color: blanchedalmond;
+}
+
+.first-slider .carousel-indicators li {
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.first-slider img {
+    height: 45rem;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(100%);
+}
+
+.first-slider .carousel-indicators{
+    bottom:30%;
+    text-align: left;
+
+}
+
+.happy > h6 a {
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.carousel-caption{
+    color: white;
+    font-size: larger;
+}
+
+.card-img-top{
+    height: 100%;
+}

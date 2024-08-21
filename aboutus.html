@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - H & M</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="icon" href="assets/images/h_and_m-removebg-preview.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .team-member {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .team-member .card-body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.jpg" width="50" alt="logo">
+                H & M
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about_us.html" aria-current="page">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Categories</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Super Cars</a>
+                            <a class="dropdown-item" href="#">Mini Vans</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2 bg-transparent text-white" type="text" placeholder="Search" />
+                    <button class="btn btn-outline-light my-2 my-sm-0 ms-2" type="submit">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- About Us Section -->
+    <section class="container my-5 py-5">
+        <div class="row">
+            <div class="col-md-12 text-center mb-4">
+                <h1 class="display-4">About Us</h1>
+                <p class="lead">Learn more about H & M, our mission, vision, and team.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Our Mission</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, expedita, doloribus quod quo
+                    similique placeat debitis accusamus, a consequatur ipsum saepe excepturi dignissimos quos perferendis
+                    aliquam inventore nulla illo?</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Our Vision</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, expedita, doloribus quod quo
+                    similique placeat debitis accusamus, a consequatur ipsum saepe excepturi dignissimos quos perferendis
+                    aliquam inventore nulla illo?</p>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-12 text-center mb-4">
+                <h2>Meet Our Team</h2>
+                <p class="lead">Get to know the amazing people behind H & M.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card team-member">
+                    <img src="assets/images/man1.jpg" style="object-fit:cover; object-position:top;" alt="Team Member 1">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Founder & CEO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card team-member">
+                    <img src="assets/images/man3.jpg" style="object-fit:cover; object-position:top;" alt="Team Member 2">
+                    <div class="card-body">
+                        <h4 class="card-title">Jane Smith</h4>
+                        <p class="card-text">Chief Operations Officer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card team-member">
+                    <img src="assets/images/man2.jpg" style="object-fit:cover; object-position:top;" alt="Team Member 3">
+                    <div class="card-body">
+                        <h4 class="card-title">Mike Johnson</h4>
+                        <p class="card-text">Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Contact Us</h3>
+                <p>If you have any questions or want to get in touch, feel free to <a href="contact.html">contact us</a>.</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section Ends -->
+
+    <!-- Footer Starts -->
+    <section class="container-fluid bg-dark text-white py-3">
+        <footer class="text-center">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+                <li class="nav-item"><a href="about_us.html" class="nav-link text-white">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">FAQs</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
+            </ul>
+            <p class="text-center text-white">© 2024 H & M Company</p>
+        </footer>
+    </section>
+    <!-- Footer Ends -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
